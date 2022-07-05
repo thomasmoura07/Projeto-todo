@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Chelsea+Market&family=Exo:wght@400;700&family=Macondo&family=Oswald:wght@600&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Roboto:ital,wght@0,400;1,700&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  color: black;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #232c3b;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background: #f4f4f4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff8e24;
+  border-radius: 15px;
+}

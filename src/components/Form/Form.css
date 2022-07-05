@@ -1,0 +1,33 @@
+input.task-input {
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  margin-left: 2.3%;
+  height: 50px;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  background-color: #202225;
+  border-radius: 30px;
+  min-width: 80vw;
+  min-height: 80vh;
+  padding-top: 1rem;
+}
+
+.Form input::-webkit-input-placeholder {
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  font-style: bold;
+}
+
+.Form .btn-add {
+  margin-top: 0.3rem;
+  margin-left: 2.8%;
+  max-width: 25%;
+  background-color: rgb(230, 163, 39);
+}
+
+.btn-add:hover {
+  background-color: rgb(236, 191, 67);
+}

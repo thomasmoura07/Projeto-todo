@@ -1,0 +1,34 @@
+.div-btn button:hover {
+  background-color: rgb(230, 52, 39);
+  color: white;
+
+  transition: linear 0.3s;
+}
+
+.List-Task {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 5px;
+  height: 400px;
+  overflow: auto;
+}
+
+.task {
+  background-color: rgb(175, 175, 175);
+  width: 99%;
+  display: flex;
+  justify-content: flex-start;
+  gap:10px;
+  font-size: 25px;
+}
+
+.task + .task {
+  margin-top: 4px;
+  border-top: 3px #d9d9d9;
+  padding-top: 10px;
+}
+
+.check-task {
+  width: 5%;
+  margin-left: 10px;
+}
